@@ -76,8 +76,8 @@ persistence:
   ## If undefined (the default) or set to null, no storageClassName spec is
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
-  ##
-  # storageClass: "-"
+  ##storageClass: "-"
+  storageClassName: dyanimic
   accessMode: ReadWriteOnce
   size: 8Gi
   annotations: {}
